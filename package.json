@@ -1,0 +1,37 @@
+{
+  "name": "inf-04-mobilne",
+  "displayName": "INF.04 Mobilne",
+  "description": "Wsparcie w egzaminie INF.04 (Aplikacje mobilne)",
+  "version": "0.1.0",
+    "author": {
+    "name": "Wenyl"
+  },
+  "publisher": "Wenyl",
+  "icon": "images/logo_mobilne.png",
+  "engines": {
+    "vscode": "^1.74.0"
+  },
+    "keywords": [
+    "mobilne",
+    "inf04",
+    "android",
+    "inf.04",
+    "zawodowy"
+  ],
+  "categories": [
+    "Snippets"
+  ],
+    "license": "SEE LICENSE IN LICENSE.md",
+  "contributes": {
+    "snippets": [
+      {
+        "language": "kotlin",
+        "path": "./snippets/snippets.code-snippets"
+      }
+    ]
+  },
+    "galleryBanner": {
+    "color": "#FF784F",
+    "theme": "dark"
+  }
+}

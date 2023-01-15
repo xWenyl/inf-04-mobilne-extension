@@ -1,0 +1,24 @@
+{
+    "Zmiana koloru tła": {
+        "prefix": ["inf04-changebgcolor"],
+        "body": [
+        "${1:view}.setBackgroundColor(Color.parseColor(\"#${2:hexcolor}\"))"
+        ],
+        "description": "Zmiana koloru tła."
+    },
+        "Programowa zmiana obrazka": {
+        "prefix": ["inf04-setimage"],
+        "body": [
+        "${1:view}.setImageResource(R.drawable.${2:obraz})"
+        ],
+        "description": "Programowa zmiana obrazka."
+    },
+        "Otworzenie nowej aktywności": {
+        "prefix": ["inf04-newactivity"],
+        "body": [
+        "val ${1:NazwaZmiennej} = Intent(this, ${2:NazwaAktywnosci}::class.java)",
+        "startActivity(${1:NazwaZmiennej})"
+        ],
+        "description": "Otworzenie nowej aktywności."
+    }
+}
